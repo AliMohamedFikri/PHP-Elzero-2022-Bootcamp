@@ -2,8 +2,19 @@
 /*
     This is my first PHP assignment
     I am learning from Elzero Web School
-    Date: 30-09-2025
+
+    ========================================
+    ========================================
+    ========= PHP Bootcamp Lab 01 ==========
+    ========================================
+    ========================================
+    [1]Multi-line comment at the beginning 
+    [2]<meta charset="UTF-8">               ## Using PHP echo | <?= 'UTF-8'?> 
+    [3]<title>My First PHP Page</title>     ## Using PHP echo | <title><?= 'My First PHP Page'?></title>
+    [4]<div>We Love</div>                   ## Using PHP echo | <div><?= 'We Love'?></div>
+    [5]<div>Elzero Channel</div>            ## Using PHP echo | <div><?= 'Elzero Channel'?></div>
 */
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,17 +33,3 @@
 
 
 </html>
-<?php
-/*
-    ========================================
-    ========================================
-    ========= PHP Bootcamp Lab 01 ==========
-    ========================================
-    ========================================
-    [1]Multi-line comment at the beginning 
-    [2]<meta charset="UTF-8">               ## Using PHP echo | <?= 'UTF-8'?> 
-    [3]<title>My First PHP Page</title>     ## Using PHP echo | <title><?= 'My First PHP Page'?></title>
-    [4]<div>We Love</div>                   ## Using PHP echo | <div><?= 'We Love'?></div>
-    [5]<div>Elzero Channel</div>            ## Using PHP echo | <div><?= 'Elzero Channel'?></div>
-*/
-?>
