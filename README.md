@@ -10,9 +10,9 @@ I focus on:
 
 ## Repository Structure
 
-- `video_01/` to `video_20/` – Each folder contains:
-  - `index.php` → Example code from the video.
-  - `README.md` → Notes, key concepts, and mini exercises for that video.
+- `videos/001/` to `videos/105/` – Each folder contains:
+  - `index.php` → Example code from the video and mini exercises for that video.
+  - `README.md` → Notes, key concepts.
 
 - `summary.md` → Overall summary after completing a batch of videos:
   1. What I learned overall.
