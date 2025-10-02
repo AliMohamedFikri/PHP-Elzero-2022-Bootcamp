@@ -8,11 +8,14 @@
     ========= PHP Bootcamp Lab 01 ==========
     ========================================
     ========================================
+
+    Assignment 01 – Using Tags
+
     [1]Multi-line comment at the beginning 
-    [2]<meta charset="UTF-8">               ## Using PHP echo | <?= 'UTF-8'?> 
-    [3]<title>My First PHP Page</title>     ## Using PHP echo | <title><?= 'My First PHP Page'?></title>
-    [4]<div>We Love</div>                   ## Using PHP echo | <div><?= 'We Love'?></div>
-    [5]<div>Elzero Channel</div>            ## Using PHP echo | <div><?= 'Elzero Channel'?></div>
+    [2]<meta charset="UTF-8">                   ## Using PHP echo | <?= 'UTF-8'?>
+    [3]<title>My First PHP Page</title>         ## Using PHP echo | <title><?= 'My First PHP Page'?></title>
+    [4]<div>We Love</div>                       ## Using PHP echo | <div><?= 'We Love'?></div>
+    [5]<div>Elzero Channel</div>                ## Using PHP echo | <div><?= 'Elzero Channel'?></div>
 */
 
 ?>
