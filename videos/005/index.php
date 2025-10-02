@@ -5,7 +5,7 @@
     ========= PHP Bootcamp Lab 02 ==========
     ========================================
     ========================================
-    Video: 002 – PHP Comments and Basic PHP Output
+    Video: 005 – PHP Comments and Basic PHP Output
     ========================================
 
     Description:
@@ -40,7 +40,7 @@
     ========= PHP Bootcamp Lab 03 ==========
     ========================================
     ========================================
-    Video: 002 – PHP Comments and Basic PHP Output
+    Video: 005 – PHP Comments and Basic PHP Output
     ========================================
 
     Assignment 03 – Using Comments
@@ -67,7 +67,7 @@
     ========= PHP Bootcamp Lab 04 ==========
     ========================================
     ========================================
-    Video: 002 – PHP Comments and Basic PHP Output
+    Video: 005 – PHP Comments and Basic PHP Output
     ========================================
 
     Assignment 04 – Using Comments
