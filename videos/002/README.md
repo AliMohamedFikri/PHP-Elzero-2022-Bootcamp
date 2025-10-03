@@ -1,4 +1,4 @@
-# Video 02: Learning PHP Efficiently (2025 Edition)
+# Video 02: Learning PHP Efficiently
 
 ## 📝 Overview
 

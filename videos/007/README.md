@@ -1,4 +1,4 @@
-# Video 007: Type Juggling and Automatic Type Conversion (2025 Edition)
+# Video 007: Type Juggling and Automatic Type Conversion
 
 ## 📝 Overview
 

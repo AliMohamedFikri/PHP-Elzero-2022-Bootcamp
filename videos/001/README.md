@@ -1,4 +1,4 @@
-# Video 01: Introduction to PHP (2025 Edition)
+# Video 01: Introduction to PHP
 
 ## 🔍 What is PHP?
 

@@ -1,4 +1,4 @@
-# Video 005: PHP Comments and Best Practices (2025 Edition)
+# Video 005: PHP Comments and Best Practices
 
 ## 📝 Overview
 

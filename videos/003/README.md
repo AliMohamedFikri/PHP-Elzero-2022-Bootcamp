@@ -1,4 +1,4 @@
-# Video 003: Installing PHP and Preparing Your Environment (2025 Edition)
+# Video 003: Installing PHP and Preparing Your Environment
 
 ## 📝 Overview
 

@@ -1,4 +1,4 @@
-# Video 004: PHP Tags and Instructions Separation (2025 Edition)
+# Video 004: PHP Tags and Instructions Separation
 
 ## 📝 Overview
 

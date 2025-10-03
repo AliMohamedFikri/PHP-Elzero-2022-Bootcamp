@@ -1,4 +1,4 @@
-# Video 008: Type Casting in PHP (2025 Edition)
+# Video 008: Type Casting in PHP
 
 ## 📝 Overview
 

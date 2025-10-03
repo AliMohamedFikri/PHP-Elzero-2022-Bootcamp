@@ -1,4 +1,4 @@
-# Video 006: Introduction to Data Types (2025 Edition)
+# Video 006: Introduction to Data Types
 
 ## 📝 Overview
 
