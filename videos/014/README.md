@@ -44,7 +44,7 @@ It demonstrates **embedding PHP inside HTML**, updating the **page title dynamic
     </div>
   </body>
 </html>
-```php
+```
 
 ### `score.php`
 
