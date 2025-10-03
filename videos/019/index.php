@@ -2,40 +2,32 @@
 /*
     ========================================
     ========================================
-    ========= PHP Bootcamp Lab 06 ==========
+    ========= PHP Bootcamp Lab 18 ==========
     ========================================
     ========================================
-    Video: 009 – Boolean and Converting to Boolean
+    Video: 019 – Predefined And Magic Constants
     ========================================
 
 
-    Assignment 06 
+    Assignment 18 
         Task:
-            1.You have the number 100.
-            2.You are required to use two different methods to print the data type.
-            3.It can be either "int" or "Integer"; either is acceptable.
-            4.There is a third method you can research for additional information; this is optional.
+            1.In the first line, write code that prints the line number where this code is located.
+            2.In the second line, print the name of the file containing this code.
+            3.In the third line, print the folder that contains the file where this code is located3
 
     // Example Code:
-    100
-
-    // Method One
-    // Method Two
-    // Method Three => Optional
+    
+    "60"
+    "C:\xampp\htdocs\elzero\index.php"
+    "C:\xampp\htdocs\elzero"
 */
 
 // Example solutions:
 
-// print DataType of 100 using three method
-
-// Method 1
-echo gettype(100);
-echo '<br>';  
-
-// Method 2
-echo var_dump(100);
-echo '<br>';  
-
-// Method 3
-echo get_debug_type(100);
-echo '<br>';  
+// Magic constants
+echo __LINE__;          // Current line number
+echo '<br>';
+echo __FILE__;          // File path
+echo '<br>';
+echo __DIR__;           // Directory path
+echo '<br>'; 
