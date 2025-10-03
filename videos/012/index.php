@@ -2,40 +2,86 @@
 /*
     ========================================
     ========================================
-    ========= PHP Bootcamp Lab 06 ==========
+    ========= PHP Bootcamp Lab 12 ==========
     ========================================
     ========================================
-    Video: 009 – Boolean and Converting to Boolean
+    Video: 012 – Arrays with Complex Tests
     ========================================
 
 
-    Assignment 06 
+    Assignment 12 
         Task:
-            1.You have the number 100.
-            2.You are required to use two different methods to print the data type.
-            3.It can be either "int" or "Integer"; either is acceptable.
-            4.There is a third method you can research for additional information; this is optional.
+            1.You have the following output.
+            2.You need to write the content of the array and print it to display this output.
 
     // Example Code:
-    100
+    
+    Array
+    (
+        [FrontEnd] => Array
+            (
+                [0] => HTML
+                [1] => CSS
+                [JS] => Array
+                    (
+                        [Vuejs] => Array
+                            (
+                                [2] => v2
+                                [3] => v3
+                            )
 
-    // Method One
-    // Method Two
-    // Method Three => Optional
+                        [0] => Reactjs
+                        [1] => Svelte
+                    )
+            )
+
+        [BackEnd] => Array
+            (
+                [0] => PHP
+                [1] => MySQL
+                [2] => Security
+            )
+
+        [0] => Git
+        [1] => Github
+        [Testing] => Array
+            (
+                [0] => Unit Testing
+                [1] => End To End
+                [2] => Integration
+            )
+    )
 */
 
 // Example solutions:
 
-// print DataType of 100 using three method
+$array = [
+    'FrontEnd' => [
+        'HTML',
+        'CSS',
+        'JS' => [
+            'Vuejs' => [
+                2 => 'v2',
+                3 => 'v3',
+            ],
+            'Reactjs',
+            'Svelte',
+        ]
+    ],
+    'BackEnd' => [
+        'PHP',
+        'MySQL',
+        'Security',
+    ],
+    'Git',
+    'Github',
+    'Testing' => [
+        'Unit Testing',
+        'End To End',
+        'Integration',
+    ],
+];
 
-// Method 1
-echo gettype(100);
-echo '<br>';  
-
-// Method 2
-echo var_dump(100);
-echo '<br>';  
-
-// Method 3
-echo get_debug_type(100);
-echo '<br>';  
+echo '<pre>';
+print_r($array);
+echo '</pre>';
