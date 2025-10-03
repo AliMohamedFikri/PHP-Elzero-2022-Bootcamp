@@ -11,8 +11,8 @@ I focus on:
 ## Repository Structure
 
 - `videos/001/` to `videos/105/` – Each folder contains:
-  - `index.php` → Example code from the video and mini exercises for that video.
-  - `README.md` → Notes, key concepts.
+  - `index.php` → Mini exercises for that video.
+  - `README.md` → Notes, key concepts and Example code fromthe video .
 
 - `summary.md` → Overall summary after completing a batch of videos:
   1. What I learned overall.
