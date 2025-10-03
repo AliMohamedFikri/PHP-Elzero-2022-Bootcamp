@@ -2,40 +2,59 @@
 /*
     ========================================
     ========================================
-    ========= PHP Bootcamp Lab 06 ==========
+    ========= PHP Bootcamp Lab 13 ==========
     ========================================
     ========================================
-    Video: 009 – Boolean and Converting to Boolean
+    Video: 014 – Boolean and Converting to Boolean
     ========================================
 
 
-    Assignment 06 
+    Assignment 013 
         Task:
-            1.You have the number 100.
-            2.You are required to use two different methods to print the data type.
-            3.It can be either "int" or "Integer"; either is acceptable.
-            4.There is a third method you can research for additional information; this is optional.
+            1.You have the following code for a complete webpage.  
+            2.Use what you learned about variables so that we can easily change the text "Elzero Courses" in the future.
 
     // Example Code:
-    100
-
-    // Method One
-    // Method Two
-    // Method Three => Optional
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Elzero Courses">
+        <title>Welcome To Elzero Courses</title>
+    </head>
+    <body>
+        <h1>Elzero Courses</h1>
+        <p>Here In Elzero Courses We Provide Front-End And Back-End Courses</p>
+        <hr>
+        <div>Elzero Courses Is The What You Need.</div>
+        <footer>All Right Reserved To Elzero Courses</footer>
+    </body>
+    </html>
 */
 
 // Example solutions:
 
-// print DataType of 100 using three method
+$instructor ="Elzero Courses" ?>
+<!DOCTYPE html>
+<html lang="en">
 
-// Method 1
-echo gettype(100);
-echo '<br>';  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?= $instructor?>">
+    <title>Welcome To <?=$instructor?></title>
+</head>
 
-// Method 2
-echo var_dump(100);
-echo '<br>';  
+<body>
+    <h1><?=$instructor?></h1>
+    <p>Here In <?=$instructor?> We Provide Front-End And Back-End Courses</p>
+    <hr>
+    <div><?=$instructor?> Is The What You Need.</div>
+    <footer>All Right Reserved To <?=$instructor?></footer>
+</body>
 
-// Method 3
-echo get_debug_type(100);
-echo '<br>';  
+</html>
